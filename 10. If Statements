@@ -1,0 +1,101 @@
+
+// If statements - allows us to respond to different situations // 
+
+#include <iostream>
+
+using namespace std; 
+
+
+int main() 
+
+{
+	bool isMale = true; 
+	
+	
+	if (isMale) {
+		
+		cout << "You are a male"; 
+		
+		
+	} else {
+		
+		cout << "You are not a male"; 
+	} 
+	
+	return 0; 
+	
+	
+} 
+
+
+
+
+// we can work with two boolean values 
+
+/* 
+
+&& - this is the and opreator 
+
+|| - this is the or opreator 
+
+*/ 
+
+
+int main() 
+
+{
+	bool isMale = true; 
+	
+	bool isTall = true; 
+	
+	
+	if (isMale && isTall) {
+		
+		cout << "You are a tall male"; 
+		
+		
+	} else {
+		
+		cout << "You are not a male or not tall"; 
+	} 
+	
+	return 0; 
+	
+	
+} 
+
+// we can also use the else if condition 
+
+
+
+int main() 
+
+{
+	bool isMale = true; 
+	
+	bool isTall = true; 
+	
+	
+	if (isMale && isTall) {
+		
+		cout << "You are a tall male"; 
+		
+	
+	
+	else if (isMale && !isTall) {
+		
+		cout << "You are a short male!"; 
+		
+		
+	} 
+	 else {
+		
+		cout << "You are not a male or not tall"; 
+	} 
+	
+	return 0; 
+	
+	
+} 
+
+}
