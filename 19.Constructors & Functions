@@ -1,0 +1,36 @@
+
+// constructors inside of C++ Classes 
+
+
+class Book {
+	
+	public:
+	
+		string title; 
+		string author; 
+		int pages; 
+		
+		
+		//creating a constuctor 
+		
+		Book (string aTitle, string aAuthor, int apages) {
+			
+			title = aTtile;
+			author = aAuthor; 
+			pages = aPages; 
+		} 
+		
+} 
+
+
+int main() 
+
+
+{
+	
+	
+	Book book1("Harry Potter", "JK Rolwing", 500);
+	
+	
+
+return 0; } 
