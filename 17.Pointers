@@ -1,0 +1,87 @@
+
+// Pointers in C++ // 
+
+/* pointers are basically a type of information we can work with in our program
+
+a pointer refers to a variable that holds the address of another variable 
+
+a memory address is just a type of data 
+
+*/
+
+
+
+int main() 
+
+{
+	
+	int age = 19;
+	
+	
+	//print the memory address of the variable
+	cout << &age;
+	
+	
+	// pointer variable that stores the variable
+	
+	int *pAge = &age; 
+	
+	//printing it out
+	cout <<pAge; 
+	
+
+
+	// you can do this with all data types 
+	
+
+	return 0; 
+	
+	
+} 
+
+
+
+// we can also grab the variable that is stored inside the memory address - working backwards. 
+
+
+int main() 
+
+{ 
+
+// derefrence the pointer 
+
+
+
+	int age = 19;
+	
+	
+	//print the memory address of the variable
+	cout << &age;
+	int *pAge = &age; 
+	
+
+// prints out the memory address
+	cout << *pAge;
+
+
+
+cout << &*&gpa; // this is how you access value inside memory address
+
+
+
+
+return 0; 
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
